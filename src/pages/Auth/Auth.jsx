@@ -8,16 +8,16 @@ const Auth = () => {
       <div className="a-left">
         <img src={Logo} alt="" />
         <div className="Webname">
-          <h1>ZKC Media</h1>
+          <h1>Social Media Application</h1>
           <h6>Explore the ideas throughout the world</h6>
         </div>
       </div>
-
+   {/* <SignUp/> */}
       <LogIn/>
     </div>
   );
 };
-function LogIn() {
+const LogIn=()=> {
     return (
       <div className="a-right">
         <form className="infoForm authForm">
@@ -42,7 +42,7 @@ function LogIn() {
           </div>
   
           <div>
-              <span style={{ fontSize: "12px" }}>
+              <span style={{ fontSize: "12px" }} >
                 Don't have an account Sign up
               </span>
             <button className="button infoButton">Login</button>
@@ -51,7 +51,7 @@ function LogIn() {
       </div>
     );
   }
-function SignUp() {
+const SignUp=()=> {
   return (
     <div className="a-right">
       <form className="infoForm authForm">
